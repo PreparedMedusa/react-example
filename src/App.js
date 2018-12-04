@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import logo from "./logo.svg";
 import "./App.css";
 import CONTACTS from "./bd.js";
+import { isNumber } from "util";
 
 class Contact extends React.Component {
   render() {
@@ -32,7 +33,9 @@ class ContactList extends Component {
   handleSearch(event) {
     var searchQuery = event.target.value.toLowerCase();
     var displayedContacts = CONTACTS.filter(function(el) {
-      var searchValue = el.name.toLowerCase();
+      var searchValue =
+        searchQuery > 0 ? el.phoneNumber.toLowerCase() : el.name.toLowerCase();
+      console.log(isNumber(searchQuery), searchQuery);
       return searchValue.indexOf(searchQuery) !== -1;
     });
     this.setState({ displayedContacts: displayedContacts });
