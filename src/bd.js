@@ -29,6 +29,37 @@ var CONTACTS = [
     name: "R2D2",
     phoneNumber: "+250961111111",
     image: "https://i.gifer.com/8vmm.gif"
+  },
+  {
+    id: 6,
+    name: "Han Solo",
+    phoneNumber: "+250945679976",
+    image: "https://i.gifer.com/30RF.gif"
+  },
+  {
+    id: 7,
+    name: "Boba Fett",
+    phoneNumber: "+250913553468",
+    image: "https://gifimage.net/wp-content/uploads/2017/09/boba-fett-gif-8.gif"
+  },
+  {
+    id: 8,
+    name: "Yoda",
+    phoneNumber: "+250777777777",
+    image: "https://media.giphy.com/media/OSAaYLPqFGvlK/giphy.gif"
+  },
+  {
+    id: 9,
+    name: "Obi-Wan Kenobi",
+    phoneNumber: "+250947639230",
+    image:
+      "https://media1.tenor.com/images/f1ab8843c8d194773f5b1f3682a10a14/tenor.gif?itemid=6061926"
+  },
+  {
+    id: 10,
+    name: "Jabba the Hutt",
+    phoneNumber: "+250987675134",
+    image: "https://media.giphy.com/media/eHK84S8vUNnY4/giphy.gif"
   }
 ];
 

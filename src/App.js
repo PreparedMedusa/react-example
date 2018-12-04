@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import logo from "./logo.svg";
 import "./App.css";
 import CONTACTS from "./bd.js";
 import { isNumber } from "util";
@@ -13,6 +12,7 @@ class Contact extends React.Component {
           src={this.props.image}
           width="60px"
           height="60px"
+          alt="logo"
         />
         <div className="contact-info">
           <div className="contact-name">{this.props.name}</div>
